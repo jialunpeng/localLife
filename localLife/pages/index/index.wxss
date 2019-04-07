@@ -1,0 +1,52 @@
+page {
+  background-color: #ddd;
+}
+swiper {
+  width: 100%;
+  height: 340rpx;
+}
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+
+.categories {
+  background-color: #fff;
+  display: flex;
+  /* 开启flex的换行 */
+  flex-wrap: wrap;
+}
+.categories .item {
+  width: 250rpx;
+  height: 250rpx;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.categories .item image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.categories .item text {
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+
+/* 底部的连接 */
+.links {
+  background-color: #fff;
+  margin: 20rpx 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 20rpx 0;
+}
+
+.links image {
+  width: 340rpx;
+}
